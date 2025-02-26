@@ -15,6 +15,9 @@ int main(void)
                     {
                         printf("CartesianDistance(%d,%d,%d,%d)=%.2f\t",x1,y1,x2,y2,CartesianDistance(x1,y1,x2,y2));
                         printf("TaxiCabDistance(%d,%d,%d,%d)=%.2f\n",x1,y1,x2,y2,TaxiCabDistance(x1,y1,x2,y2));
+#ifdef HONORS
+                        printf("HammingBitDistance(%d,%d,%d,%d)=%.2f\n",x1,y1,x2,y2,HammingBitDistanceReference(x1,y1,x2,y2));
+#endif
                     }
                 }
             }

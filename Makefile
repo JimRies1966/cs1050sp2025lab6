@@ -13,6 +13,9 @@ LDFLAGS = -lm
 
 default: lab6
 
+honors: CFLAGS+= -DHONORS
+honors: clean lab6
+
 %.o : %.c 
 	@echo Compiling $^ 
 	@$(CC) $(CFLAGS) $^
