@@ -1,5 +1,5 @@
 ##############################################################################
-# Makefile for Prelab 6
+# Makefile for Lab 6
 # CMP_SC 1050
 # Spring 2025
 # February 24, 2025
